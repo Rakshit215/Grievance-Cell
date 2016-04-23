@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used in Block Activity.java -->
+    <string-array name="block">
+        <item>Block One</item>
+        <item>Block Two</item>
+        <item>Block Three</item>
+        <item>Block Four</item>
+        <item>Block Five</item>
+        <item>Block Six</item>
+        <item>Block Seven</item>
+        <item>Block Eight</item>
+        <item>R and D Block</item>
+        <item>EDC</item>
+    </string-array>
+    
+    <!-- Used in Block Activity.java -->
+    <string-array name="floor">
+        <item>Ground</item>
+        <item>First</item>
+        <item>Second</item>
+        <item>Fourth</item>
+    </string-array>     
+        <!-- Used in LibrActivity.java -->
+    <string-array name="citlab">
+        <item>Lab One</item>
+        <item>Lab Two</item>
+        <item>Lab Three</item>
+        <item>Lab Four</item>
+        <item>Lab Five</item>
+        <item>Lab Six</item>
+        <item>Lab Seven</item>
+        <item>Lab Eight</item>
+        <item>Room One</item>
+        <item>Room Two</item>
+    </string-array>
+   
+</resources>

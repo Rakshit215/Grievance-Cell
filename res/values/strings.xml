@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Upes Greivance Cell</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_regi">RegiActivity</string>
+    <string name="title_activity_func">FuncActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_status">StatusActivity</string>
+    <string name="title_activity_block">BlockActivity</string>
+    <string name="title_activity_lab">LabActivity</string>
+    <string name="title_activity_libr">LibrActivity</string>
+    <string name="title_activity_cit">CitActivity</string>
+    <string name="title_activity_fc">FcActivity</string>
+    <string name="title_activity_remark">RemarkActivity</string>
+    <string name="title_activity_ackn">AcknActivity</string>
+
+</resources>

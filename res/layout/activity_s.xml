@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/pb2"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cmpi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toRightOf="@+id/textView1"
+        android:maxHeight="135dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ProgressBar
+        android:id="@+id/pbar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:id="@+id/pb1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+   android:layout_marginLeft="5dp"
+        android:layout_marginTop="90dp"
+        android:text="Complain Filed"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     <TextView
+        android:id="@+id/pb2"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+   android:layout_marginLeft="85dp"
+        android:layout_marginTop="90dp"
+        android:text="Department Informed"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     <TextView
+        android:id="@+id/pg3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+   android:layout_marginLeft="190dp"
+        android:layout_marginTop="90dp"
+        android:text="Person Alloted"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+      <TextView
+        android:id="@+id/pg4"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+   android:layout_marginLeft="260dp"
+   android:layout_marginRight="2dp"
+        android:layout_marginTop="90dp"
+        android:text="Problem Resolved"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/textView3"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="25dp"
+          android:text="Complaint Id :"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/pb1"
+          android:layout_below="@+id/textView1"
+          android:layout_marginTop="21dp"
+          android:text="Status"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      <TextView
+          android:id="@+id/textView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignLeft="@+id/pb1"
+          android:layout_centerVertical="true"
+          android:text="Details"
+          android:textAppearance="?android:attr/textAppearanceMedium" />
+
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="130dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignRight="@+id/textView1"
+          android:layout_below="@+id/textView4"
+/>
+
+</RelativeLayout>
